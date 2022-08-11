@@ -1,0 +1,240 @@
+1.什么是HTML、CSS?
+
+	是做网站的编程语言。
+
+2.VSCode编辑器?
+	
+	快捷方式
+	shift + alt + 下箭头：快速复制一行
+
+	多光标：alt + 鼠标左键
+	选择相同元素的下一个：ctrl + d
+	
+	练习：整理市场上常见的浏览器，了解五大浏览器
+	IE、Firefox、Safari、Opera、Google Chome、QQ浏览器、搜狗浏览器、360浏览器、猎豹浏览器、UC浏览器
+	遨游浏览器、世界之窗浏览器、百度浏览器
+
+	IE浏览器
+	IE是微软公司旗下浏览器，是目国内用户量最多的浏览器。IE诞生于1994年，当时微软为了对抗市场份额占据将近百分之九十的网景Netscape Navigator，于是在Windows中开发了自己的浏览器Internet Explorer，自此也引发了第一次浏览器大战。结果可想而知，微软大获全胜，网景不得不将自己卖给AOL公司。但实际上事情并没有结束，网景后来开发了风靡一时的Firefox火狐，至今Firefox也成为世界五大浏览器之一。
+	1996年，微软从Spyglass手里拿到Spyglass Mosaic的源代码和授权，开始开发自己的浏览器IE。后来，微软以IE和Windows捆绑的模式不断向市场扩展份额，使IE成为市场的绝对主流。现在装了Windows系统的电脑基本无法卸载IE。
+
+	Opera浏览器
+	Opera是挪威Opera Software ASA公司旗下的浏览器。1995年，opera公司发布第一版Opera浏览器，使用自己研发的Presto内核。当时opera公司的开发团队不断完善Presto内核，使Opera浏览器一度成为顶级浏览器。直到2016年奇虎360和昆仑万维收购了Oprea浏览器，从此也丢弃了强大的Presto内核，改用当时Google开源的webkit内核。后来Opera浏览器跟随Google将浏览器内核改为Blink内核。自此Presto内核也淡出了互联网市场。
+
+	Safari浏览器
+	第二次浏览器大战是从苹果公司发布Safari浏览器开始的。2003年，苹果公司在苹果手机上开发Safari浏览器，利用自己得天独厚的手机市场份额使Safari浏览器迅速成为世界主流浏览器。Safari是最早使用webkit内核的浏览器也是现在苹果默认的浏览器。
+
+	Firefox浏览器：
+	Firefox浏览器使Mozilla公司旗下浏览器，也是刚才提到的网景公司后来的浏览器。网景被收购后，网景人员创办了Mozilla基金会，这是一个非盈利组织，他们在2004年推出自己的浏览器Firefox。Firefox采用Gecko作为内核。Gecko是一个开源的项目，代码完全公开，因此受到很多人的青睐。Firefox的问世加快了第二次浏览器大战的开始。第二次浏览器大战与第一次二元鼎力的局面不同，这一次的特点就是百家争鸣，也自此打破了IE浏览器从98年网景被收购后独步浏览器市场的局面。
+
+	Chrome浏览器：
+	Chrome浏览器是google旗下的浏览器。Chrome浏览器至发布以来一直讲究简洁、快速、安全，所以Chrome浏览器到现在一直受人追捧。最开始Chrome采用webkit作为浏览器内核，直到2013年，google宣布不再使用苹果的webkit内核，开始使用webkit的分支内核Blink。
+
+3.深入了解网站开发？
+
+	UI设计师：设计稿
+	web前端开发工程师(H5开发)
+		设计稿->代码
+		数据库里的数据->显示到页面
+		HTML + CSS
+			HTML:结构
+			CSS:样式
+	web后端开发工程师
+
+4.web三大核心技术？
+	HTML
+	CSS
+	JavaScript
+
+5.HTML基本结构和属性
+
+	HTML：超文本 标记 语言
+
+	超文本：文本内容 + 非文本内容（图片、视频、音频等）
+
+	标记：<单词>
+
+	语言：编程语言
+
+	标记也叫做标签：
+
+		写法分成两种：
+			单标签：<header>
+			双标签：<header></header>
+			创建标签的快捷键：tab + 单词 -> <单词>
+	
+	标签可以上下排列，也可以组合嵌套。
+
+	标签的属性：来修饰标签的，设置当前标签的一些功能
+		<标签 属性="值" 属性2="值">
+
+6.HTML初始代码？
+
+	每个.html文件都有的代码叫做初始代码，要符合html文件的规范写法
+
+	! + tab键：快速的创建html的初始代码
+
+	<!DOCTYPE html>  文档声明：告诉浏览器这是一个html文件
+	<html lang="en">	html文件的最外层标签：包裹所有html标签代码	lang="en"表示是一个英文网站 lang="zh-CN"表示一个中文网站	
+		<head>
+			<meta charset="UTF-8">	元信息：是编写网页中的一些辅助信息
+			<title>Document</title>	设置网页的标题
+		</head>
+		<body>
+			显示网页内容的区域
+		</body>
+	</html>
+
+7.HTML注释？
+	
+	意义：
+		1.把暂时不用的代码注释起来，方便以后使用。
+		2.对开发人员进行提示。
+
+	快捷添加注释与删除注释：
+		1.ctrl + /
+		2.shift + alt + a
+
+8.html语义化
+
+9.标题与段落？
+
+	标题 -> 双标签 ：<h1></h1> ... <h6></h6>
+
+	在一个网页中，h1标题最重要，并且一个.html文件中只能出现一次h1标签。
+	
+	h5、h6标签在网页中不经常使用。
+
+	段落 -> 双标签：<p></p>
+
+10.文本修饰标签？
+
+	强调 -> 双标签 ：<strong></strong>、<em></em>
+
+		区别：
+			1.写法和展示效果是有区别的，一个加粗，一个斜体
+			2.strong的强调性更强，em的强调性稍弱。
+	
+	下标：<sub></sub>
+	上标：<sup></sup>
+	删除：<del></del>
+	插入：<ins></ins>
+		注：一般情况下，删除文本都是和插入文本配合使用的。
+
+11.图片标签？
+
+	img -> 单标签
+		src：引入图片的地址
+		alt：当图片出现问题的时候，可以显示一段友好的文字。
+		title：提示信息
+		width、height：图片的大小
+
+12.路径的引入？
+	绝对路径
+	相对路径
+
+13.链接标签？
+
+	a -> 双标签 <a></a>
+		href属性：链接的地址
+		target属性：可以改变链接打开的方式，默认情况下：在当前页面打开 _self  新窗口打开 _blank
+	
+	base -> 单标签：作用就是改变链接的默认行为的。
+
+14.跳转锚点
+
+		实现一
+			#号
+			id属性
+		实现二
+			#号
+			name属性（name属性加给的是a标签）
+
+15.特殊符号?
+
+	特殊字符		含义		特殊字符代码
+					空格符		&nbsp;
+	©				版权		&copy;
+	®				注册商标	&reg;
+	<				小于号		&lt
+	>				大于号		&gt
+	&				和号		&amp;
+	¥				人民币		&yen;
+	°				摄氏度		&deg;
+
+16.列表标签
+
+	1.无序列表 ->ul li 符合嵌套的规范
+	2.有序列表 ->ol li 一般用的比较少 可以用无序列表来实现
+	3.定义列表 ->dl dt dd 列表项需要添加标题和对标题进行描述的内容
+
+	注：列表之间可以相互嵌套，形成多层级的列表。
+
+17.表格标签？
+
+	table、tr、th、td、caption等
+
+	注：之间是有嵌套关系的，要符合嵌套规范。
+
+	语义化标签：tHead、tBody、tFoot。
+
+	注：在一个table中，tBody可以出现多次，而tHead、tFoot只能出现一次。
+
+	align：left、center、right
+	valign：top、center、bottom
+
+18.表单标签？
+	form、input、textarea、select、label..	
+		input(单标签)标签有一个type属性，决定是什么控件
+
+	type属性的值：
+
+		text	普通的文本输入框	placeholder（内容填充）
+		password	密码输入框		placeholder（内容填充）
+		checkbox	复选框			checked（已选） disabled（不可选）
+		radio		单选框			name（同一类）
+		file		上传文件		
+		submit		提交文件		action="地址"
+		reset		重置按钮
+
+19.div和span?
+	div：做一个区域划分的块
+	span：对文字进行修饰的内联
+
+20.CSS基础语法？
+
+	选择器 {属性1:值1; 属性2:值2;}
+
+	width：宽
+	height：高
+	background-color：背景色
+
+	长度单位：
+		1.px -> 像素
+		2.% -> 百分比
+			外容器1 -> 600px	当前容器 50% ->300px
+
+21.CSS样式的引入方式？
+	1.内联样式
+		style属性
+	2.内部样式
+		style标签
+		区别：
+			内部样式的代码可以复用，符合w3c的规范标准，进行让结构和样式分开处理。
+	3.外部样式
+		引入一个单独的CSS文件，name.css
+
+		通过link标签引入外部资源，rel属性指定资源跟页面的关系，href属性资源的地址。
+		通过@import方式引入外部样式（这种方法有很多问题，不建议使用）		
+
+22.CSS中的颜色表示法？
+	1.单词表示法：red blue green yellow ...
+
+	2.十六进制表示法	#000000		#ffffff
+
+	3.rgb三原色表示法：rgb(255,255,255)
+		取值范围：0 ~ 255
+
+	获取颜色的工具：
+		FeHelper
+		ps
